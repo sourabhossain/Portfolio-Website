@@ -1,0 +1,135 @@
+@media (max-width:991.98px) {
+    .skill-container canvas {
+        height: 150px !important;
+        width: 150px !important
+    }
+
+    .statistics {
+        padding: 4rem 0
+    }
+
+    .stat-box {
+        padding: 2rem 0
+    }
+}
+
+@media (max-width:767.98px) {
+
+    .home-scroll,
+    .title h2 {
+        display: none
+    }
+
+    .title {
+        margin-bottom: 1rem
+    }
+
+    .title h3 {
+        line-height: 1;
+        margin-top: 0
+    }
+
+    .navbar {
+        background: #000
+    }
+
+    .home-social {
+        margin: 0 auto
+    }
+
+    .about-image {
+        margin-bottom: 4rem
+    }
+
+    .skill {
+        padding-bottom: 3.5rem
+    }
+
+    .skill-container {
+        padding-bottom: 2.5rem
+    }
+
+    .skill-container canvas {
+        height: 175px !important;
+        width: 175px !important
+    }
+
+    .contact .mb-5 {
+        margin-bottom: 2rem !important
+    }
+}
+
+@media (max-width:575.98px) {
+    .title h3 {
+        font-size: 2rem;
+        color: #000
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        padding: .375rem .5rem
+    }
+
+    .home-title h3 {
+        font-size: 1.25rem
+    }
+
+    .home-title h1 {
+        font-size: 2.25rem
+    }
+
+    .home-title h4 {
+        font-size: 1rem
+    }
+
+    .about-image:before {
+        right: -1rem;
+        bottom: -1rem
+    }
+
+    .services .title h3 {
+        color: #fff
+    }
+
+    .filter {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .price-table {
+        margin-left: 1rem;
+        margin-right: 1rem
+    }
+
+    .price-plan h4 {
+        font-size: 1.25rem
+    }
+
+    .price-pay h3 {
+        font-size: 3rem
+    }
+
+    .statistics:before {
+        background-attachment: scroll
+    }
+
+    .client-review {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 1rem;
+        padding-right: 1rem
+    }
+
+    .blog-post {
+        margin-left: 1rem;
+        margin-right: 1rem
+    }
+}
